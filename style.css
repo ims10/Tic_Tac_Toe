@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background: grey;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 700px;
+  min-height: 500px;
+  border-radius: 2rem;
+  margin: auto;
+  border: solid 3px deeppink;
+}
+
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  border-radius: 2rem;
+}
+
+td {
+  background-color: black;
+  border: 5px solid #33ffd9;
+  font-size: 80px;
+  color:darkmagenta;
+  border-radius: 10%;
+}
+
+#player {
+  padding: 1rem;
+}
+
+body {
+  display: flex;
+  background:#fff url('https://source.unsplash.com/1600x900/?nature') no-repeat
+    center center/cover;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20%;
+}
